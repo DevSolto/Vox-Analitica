@@ -2,7 +2,7 @@ import { AppleLogo } from "phosphor-react";
 
 export function Qualities() {
   return (
-    <div className="lg:w-container lg:px-0 px-0 flex gap-8 justify-between lg:flex-row flex-col  text-center mt-10">
+    <div className="lg:w-container  flex lg:gap-8 justify-between lg:flex-row flex-col  text-center lg:mt-10 mt-4">
       <div className="flex lg:flex-col items-center justify-center">
         <AppleLogo size={100} color="#0AE6FF" weight="light" />
         <div className="flex flex-col lg:items-center items-start justify-center ml-4">
