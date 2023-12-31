@@ -1,11 +1,12 @@
 import logo from "../../assets/logo.svg";
 import { Menu } from "./Navigation";
+import menuIcon from "../../assets/menu-icon.png";
 
 export function Header() {
   return (
-    <header className="w-screen flex justify-center items-center py-10">
-      <div className="w-container flex items-center justify-between betw">
-        <div className="flex items-center gap-2">
+    <header className="w-full flex justify-center items-center lg:py-10 py-4">
+      <div className="lg:w-container w-full flex items-center justify-between lg:mx-0 mx-4">
+        <div className="flex items-center  gap-2">
           <img
             className="w-10 h-10"
             src={logo}
@@ -15,6 +16,9 @@ export function Header() {
             Voz Analitica
           </p>
         </div>
+        <button className="lg:hidden">
+          <img src={menuIcon} alt="" />
+        </button>
         <Menu />
       </div>
     </header>

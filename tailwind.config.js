@@ -14,6 +14,7 @@ export default {
     },
     width: {
       container: "1000px",
+      full: "100%",
     },
   },
   plugins: [],
