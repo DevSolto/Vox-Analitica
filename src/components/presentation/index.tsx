@@ -6,7 +6,7 @@ import grafico from "../../assets/grafico-1.png";
 export function Presentation() {
   return (
     <section
-      className="w-full bg-no-repeat bg-left-bottom flex flex-col items-center max-w-full"
+      className="w-full bg-no-repeat bg-cover bg-left-top flex flex-col items-center max-w-full"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <Header />
