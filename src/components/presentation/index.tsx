@@ -10,7 +10,7 @@ export function Presentation() {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <Header />
-      <div className="lg:w-container w-full lg:px-0 px-4 lg:overflow-visible bg-cover bg-center flex flex-col lg:flex-row items-center justify-between">
+      <div className=" lg:w-container w-full lg:px-0 px-4 lg:overflow-visible bg-cover bg-center flex flex-col lg:flex-row items-center justify-between">
         <img src={grafico} alt="" className="lg:hidden" />
         <TextBlock />
         <img src={graicos} alt="Graficos" className="hidden lg:flex" />

@@ -1,10 +1,10 @@
 import logo from "../../assets/logo.svg";
 import { Menu } from "./Navigation";
-import menuIcon from "../../assets/menu-icon.png";
+import { Dropdown } from "../dropdown";
 
 export function Header() {
   return (
-    <header className="w-full flex justify-center items-center lg:py-10 py-4">
+    <header className=" w-full flex justify-center items-center lg:py-10 py-4">
       <div className="lg:w-container w-full flex items-center justify-between lg:mx-0 mx-4">
         <div className="flex items-center  gap-2">
           <img
@@ -17,7 +17,7 @@ export function Header() {
           </p>
         </div>
         <button className="lg:hidden">
-          <img src={menuIcon} alt="" />
+          <Dropdown />
         </button>
         <Menu />
       </div>
