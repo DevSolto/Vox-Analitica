@@ -1,12 +1,10 @@
-import { File } from "phosphor-react";
-
-interface SideBarItemProps {
+interface ItemProps {
   active: (isActive: boolean) => void;
   link: string;
   label: string;
 }
 
-export function SideBarItem({ active, link, label }: SideBarItemProps) {
+export function Item({ active, link, label }: ItemProps) {
   return (
     <div className="">
       <button onClick={() => active(false)}>

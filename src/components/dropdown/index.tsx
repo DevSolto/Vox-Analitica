@@ -1,6 +1,6 @@
 import { List } from "phosphor-react";
 import { useState } from "react";
-import { SideBar } from "./SideBar";
+import { SideBar } from "./sideBar";
 
 export function Dropdown() {
   const [sideBar, setSideBar] = useState(false);
