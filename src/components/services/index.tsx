@@ -2,7 +2,6 @@
 
 import sala from "../../assets/sala.png";
 import { TextBlock } from "./TextBlock";
-import { KnowMore } from "./knowMore";
 
 export function Services() {
   return (
