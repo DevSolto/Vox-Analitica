@@ -1,6 +1,6 @@
 import logo from "../../assets/logo.svg";
 import { Menu } from "./Navigation";
-import { Dropdown } from "../dropdown";
+import { Dropdown } from "./dropdown";
 
 export function Header() {
   return (
@@ -13,7 +13,7 @@ export function Header() {
             alt="Icone da logo da Vox Analitica"
           />
           <p className="font-bold text-xl text-white uppercase">
-            Voz Analitica
+            Vox Analitica
           </p>
         </div>
         <button className="lg:hidden">

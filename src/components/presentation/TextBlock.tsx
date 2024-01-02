@@ -1,3 +1,5 @@
+import { Button } from "../button";
+
 export function TextBlock() {
   return (
     <div className="lg:min-w-[550px] w-full flex gap-4 flex-col items-start justify-center mb-10">
@@ -8,9 +10,7 @@ export function TextBlock() {
         A sua janela para o cenário eleitoral regional. Expertise local com
         alcance e precisão global.
       </p>
-      <button className="bg-highlights text-white py-2 lg:px-8  lg:max-w-40 w-[100%] rounded-full lg:mt-10 mb-20 hover:bg-white hover:text-highlights transition-all">
-        Contate nos
-      </button>
+      <Button text="Contate nos" />
     </div>
   );
 }
