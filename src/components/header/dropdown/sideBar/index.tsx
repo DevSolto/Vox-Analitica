@@ -11,7 +11,6 @@ export function SideBar({ active }: SideBarProps) {
       <div className="fixed top-0 left-0 w-full bg-primary flex flex-col gap-4 py-4 shadow-lg">
         <Item active={active} link="#sobre" label="Sobre" />
         <Item active={active} link="#servicos" label="Serviços" />
-        <Item active={active} link="#depoimentos" label="Depoimentos" />
         <Item active={active} link="#contato" label="Contato" />
       </div>
       <button
