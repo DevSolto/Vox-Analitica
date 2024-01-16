@@ -4,13 +4,10 @@ export function Menu() {
       <a className="hover:text-white transition-all" href="#about">
         Sobre
       </a>
-      <a className="hover:text-white transition-all" href="#">
+      <a className="hover:text-white transition-all" href="#services">
         Serviços
       </a>
-      <a className="hover:text-white transition-all" href="#">
-        Depoimentos
-      </a>
-      <a className="hover:text-white transition-all" href="#">
+      <a className="hover:text-white transition-all" href="#contact">
         Contato
       </a>
     </nav>

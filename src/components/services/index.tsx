@@ -10,8 +10,8 @@ import backgroundImage from "../../assets/background-mid.png";
 export function Services() {
   return (
     <section
-      id="servicos"
-      className="lg:py-10 py-24 flex flex-col items-center bg-center bg-cover"
+      id="services"
+      className="lg:py-10 py-24 mb-20 flex flex-col items-center bg-center bg-cover"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <h3 className="text-4xl text-white font-bold ">Serviços</h3>
