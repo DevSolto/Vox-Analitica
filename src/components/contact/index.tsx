@@ -2,7 +2,7 @@ import { WhatsappLogo } from "phosphor-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="lg:pb-24 pb-20 flex flex-col items-center">
+    <section id="contact" className="lg:py-40 pb-20 flex flex-col items-center">
       <div className="lg:w-container w-[90%] flex lg:flex-row flex-col lg:gap-10 gap-4 items-center justify-center">
         <div className="lg:w-[50%] flex justify-center items-center">
           <p className="text-primary font-bold lg:text-4xl text-xl lg:text-right">

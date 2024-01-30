@@ -1,6 +1,5 @@
 import { About } from "./components/about";
 import { Contact } from "./components/contact";
-import { Footer } from "./components/footer";
 import { Presentation } from "./components/presentation";
 import { Services } from "./components/services";
 import { Whatsapp } from "./components/whatsapp";
@@ -13,7 +12,6 @@ function App() {
       <About />
       <Services />
       <Contact />
-      <Footer />
     </div>
   );
 }
