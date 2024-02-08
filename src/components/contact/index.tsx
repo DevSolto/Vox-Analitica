@@ -11,12 +11,12 @@ export function Contact() {
           </p>
         </div>
         <div className="lg:w-[50%] flex justify-center items-center lg:justify-start">
+          <a href="https://api.whatsapp.com/send?phone=+558192411466&text=Ol%C3%A1%2C+vim+pelo+site+voxanalitica.com.br">
           <button className="flex items-center justify-center gap-3 bg-highlights py-3 px-5 rounded-xl hover:bg-[#25D366] transition-all text-white text-xl font-semibold">
             Enviar mensagem{" "}
-            <a href="https://api.whatsapp.com/send?phone=+558192411466&text=Ol%C3%A1%2C+vim+pelo+site+voxanalitica.com.br">
               <WhatsappLogo weight="bold" />
-            </a>
           </button>
+          </a>
         </div>
       </div>
     </section>
