@@ -10,7 +10,9 @@ export function TextBlock() {
         A sua janela para o cenário eleitoral regional. Expertise local com
         alcance e precisão global.
       </p>
-      <Button text="Contate nos" />
+      <a href="https://api.whatsapp.com/send?phone=+558192411466&text=Ol%C3%A1%2C+vim+pelo+site+voxanalitica.com.br">
+        <Button text="Contate nos" />
+      </a>
     </div>
   );
 }

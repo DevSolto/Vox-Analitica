@@ -13,9 +13,9 @@ export function Contact() {
         <div className="lg:w-[50%] flex justify-center items-center lg:justify-start">
           <button className="flex items-center justify-center gap-3 bg-highlights py-3 px-5 rounded-xl hover:bg-[#25D366] transition-all text-white text-xl font-semibold">
             Enviar mensagem{" "}
-            <span>
+            <a href="https://api.whatsapp.com/send?phone=+558192411466&text=Ol%C3%A1%2C+vim+pelo+site+voxanalitica.com.br">
               <WhatsappLogo weight="bold" />
-            </span>
+            </a>
           </button>
         </div>
       </div>
